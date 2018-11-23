@@ -1,14 +1,14 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "-";
+var prefix = "!";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
 client.on('ready', async() => {
-var server = "514913543666139138"; // ايدي السررفر
-var channel = "514913891176677388";//ايدي الروم
+var server = "515579977434136606"; // ايدي السررفر
+var channel = "515607478940073984";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('احبكم فراس جيمر  :heart: , احبكم فراس جيمر  :heart: , احبكم فراس جيمر  :heart: , احبكم فراس جيمر  :heart: , احبكم فراس جيمر  :heart: , احبكم فراس جيمر  :heart: , احبكم فراس جيمر  :heart: , احبكم فراس جيمر  :heart: , احبكم فراس جيمر  :heart: , احبكم فراس جيمر  :heart: , احبكم فراس جيمر  :heart: , احبكم فراس جيمر  :heart: , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:  , احبكم فراس جيمر  :heart:')
     },305);
